@@ -8,6 +8,11 @@
     {% endfor %}
 </ul>
 {% endblock content %}
+
 {% block main_page %}
 <a href="{% url "home" %}">Homepage</a>
 {% endblock main_page %}
+
+{% block contacts_page %}
+<div><a href="{% url "contacts" %}">Contacts page</a></div>
+{% endblock contacts_page %}
