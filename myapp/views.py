@@ -42,4 +42,4 @@ def users(request):
 def users_number(request, users_id):
     return HttpResponse("Users number {}".format(users_id))
 
-# http://127.0.0.1:8000/article/<int:article_number>/<slug:slug_text>,
+
